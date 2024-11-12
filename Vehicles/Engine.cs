@@ -19,5 +19,8 @@ namespace Vehicles
         {
             this.Horsepower = Horsepower; this.FuelType = ft;
         }
+
+        public void Start()
+            { this.Running = true; }
     }
 }
