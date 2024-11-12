@@ -17,7 +17,10 @@ namespace Shapes
 
         public override Double CalculateArea()
         {
-            return Math.Round( Math.PI * Math.Pow( (Radius) , 2) , 2);
+            return
+                //Math.Round(
+                Math.PI * Math.Pow((Radius), 2);
+                //, 2);
         }
     }
 }
