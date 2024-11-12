@@ -18,7 +18,9 @@ namespace Shapes
         {
             //return Math.PI * Math.Pow((Radius), 2);
             //4 / 3 * Math.PI * ((Circle)BaseShape).Radius * Math.Pow(1, 1);
-            return Math.Pow(5, 3) * Math.PI * (4 / 3);
+
+                                                                                //treats as int without 'd' - removes trailing decimals!
+            return Math.Pow( ((Circle)(this.BaseShape)).Radius , 3) * Math.PI * (4d / 3d);
             return 0d;
         }
     }
